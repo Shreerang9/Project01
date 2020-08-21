@@ -28,11 +28,6 @@ while True :
 		os.system("virtualbox")
 
 
-	elif (("run" in p) or ("open" in p)) and ("recycle bin" in p) :
-		os.system("recycle bin")
-
-	
-
 	elif  ("exit" in p)  or ("quit" in p):
 		  break
 
