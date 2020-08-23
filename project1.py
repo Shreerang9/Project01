@@ -11,24 +11,24 @@ while True :
 	# print(p)
 	# os.system(p)
 	
-	if ("run" in p)  and ("chrome" in p):
+	if ("run" in p)  and ("chrome" in p) and ("don't" not in p):
 	  os.system("chrome")
 
 
-	elif (("run" in p) or ("execute" in p)) and (("notepad" in p) or ("editor" in p)) :
+	elif (("run" in p) or ("execute" in p)) and (("notepad" in p) or ("editor" in p)) and ("don't" not in p):
 		os.system("notepad")
 
-	elif (("run" in p) or ("open" in p)) and ("zoom" in p) :
+	elif (("run" in p) or ("open" in p)) and ("zoom" in p) and ("don't" not in p) :
 		os.system("zoom")
 
-	elif (("run" in p) or ("open" in p)) and ("vlc" in p) :
+	elif (("run" in p) or ("open" in p)) and ("vlc" in p) and ("don't" not in p) :
 		os.system("vlc")
 	
-	elif (("run" in p) or ("open" in p)) and ("virtualbox" in p) :
+	elif (("run" in p) or ("open" in p)) and ("virtualbox" in p)  and ("don't" not in p) :
 		os.system("virtualbox")
 
 
-	elif  ("exit" in p)  or ("quit" in p):
+	elif  ("exit" in p)  or ("quit" in p) and ("don't" not in p) :
 		  break
 
 	else:
